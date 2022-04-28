@@ -1,0 +1,4 @@
+GET http://localhost:8080/get
+
+###
+GET http://localhost:3303/getb?field_a=hello&field_b=motherfucker
