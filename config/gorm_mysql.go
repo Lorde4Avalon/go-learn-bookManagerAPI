@@ -21,6 +21,6 @@ func Connect() {
 	db = d
 }
 
-func getDb() *gorm.DB {
+func GetDb() *gorm.DB {
 	return db
 }

@@ -1,4 +1,17 @@
-GET http://localhost:8080/get
+GET http://localhost:3303/api/book/get/all
 
 ###
-GET http://localhost:3303/getb?field_a=hello&field_b=motherfucker
+POST  http://localhost:3303/api/book/new
+Content-Type: application/json
+
+{
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "isbn": "0-395-19395-8"
+}
+
+###
+GET http://localhost:3303/api/book/get/1
+
+###
+DELETE http://localhost:3303/api/book/delete/1

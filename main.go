@@ -1,9 +1,15 @@
 package main
 
 import (
-	"github.com/Rioa-Avalon/go-demo/config"
+	"fmt"
+
+	"github.com/Rioa-Avalon/go-demo/model"
+	"github.com/Rioa-Avalon/go-demo/routers"
 )
 
 func main() {
-	config.Connect()
+	models.Init()
+	router := routers.RouterRegist()
+	fmt.Println("Server is running at http://localhost:3303")
+	router.Run(":3303")
 }
