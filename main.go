@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/Rioa-Avalon/go-demo/model"
+	"github.com/Rioa-Avalon/go-demo/models"
 	"github.com/Rioa-Avalon/go-demo/routers"
 )
 
