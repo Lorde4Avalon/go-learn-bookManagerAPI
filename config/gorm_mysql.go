@@ -9,7 +9,7 @@ import (
 
 var (
 	db     *gorm.DB
-	DB_URL string = "root:root@tcp(127.0.0.1:3306)/go-test?charset=utf8mb4&parseTime=True&loc=Local"
+	DB_URL string = "root:root@tcp(172.30.96.1:3306)/go-test?charset=utf8mb4&parseTime=True&loc=Local"
 )
 
 func Connect() {
