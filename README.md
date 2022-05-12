@@ -1,7 +1,7 @@
 # go-learn-bookManager
 ## About 
-A simple book manager made with Go and Gin.<br>
+A simple book CURD API made with Go and Gin.<br>
 ## Key
 **Use** multi unique indexs to implement soft_Delete with unique colume
 ## Usage
-**Only for learning.**<br>
+**Only for learn go and go-web purpose.**<br>
