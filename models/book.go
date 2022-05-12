@@ -13,9 +13,9 @@ var db *gorm.DB
 
 type Book struct {
 	ID        uint `gorm:"primarykey"`
-    CreatedAt time.Time
-    UpdatedAt time.Time
-    Is_Del soft_delete.DeletedAt `gorm:"uniqueIndex:udx_name;default:0"`
+    	CreatedAt time.Time
+    	UpdatedAt time.Time
+    	Is_Del soft_delete.DeletedAt `gorm:"uniqueIndex:udx_name;default:0"`
 	Title  string `gorm:""json:"title"`
 	Author string `json:"author"`
 	Isbn   string `gorm:"uniqueIndex:udx_name;type:varchar(30)"json:"isbn"`
